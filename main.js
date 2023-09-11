@@ -15,7 +15,7 @@ app.get('/api', (req, res) => {
     current_day: current_time.toLocaleDateString('en-US', { weekday: 'long' }),
     utc_time: current_time.toISOString(),
     track,
-    github_file_url: 'https://github.com/username/repo/blob/main/file_name.ext',
+    github_file_url: 'https://github.com/tesleemah/stage-1/blob/main/main.js',
     github_repo_url: 'https://github.com/username/repo',
     status_code: 200,
   };
